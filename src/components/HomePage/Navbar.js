@@ -24,7 +24,7 @@ const Navbar = () => {
         <NavLink to="/about" style={{ color: "lavender", fontWeight: "bold" }}>
           About
         </NavLink>
-        <NavLink to="/about" style={{ color: "lavender", fontWeight: "bold" }}>
+        <NavLink to="/login" style={{ color: "lavender", fontWeight: "bold" }}>
           Login
         </NavLink>
         <NavLink to="/about" style={{ color: "lavender", fontWeight: "bold" }}>
