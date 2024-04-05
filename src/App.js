@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage';
 import About from './Pages/About';
 import Login from './Pages/Login';
 import GridContainer from './Pages/SignUpAsHealthcare';
+import LoginAsCoach from './Pages/LoginAsCoach';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/loginAsHealthcare" element={<GridContainer/>} />
+        <Route path="/loginAsCoach" element={<LoginAsCoach/>} />
       </Routes>
     </BrowserRouter>
   );
