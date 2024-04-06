@@ -6,11 +6,12 @@ import Appoinment from "../components/HomePage/Appoinment";
 import MakeAnAppointment from "../components/HomePage/MakeAnAppointment";
 import OurServices from "../components/HomePage/OurServices";
 import PricingPlans from "../components/HomePage/PricingPlans";
+
 const HomePage = () => {
   const myStyle = {
     backgroundImage:
       "url('https://png.pngtree.com/thumb_back/fh260/back_pic/04/04/03/285809807996bcc.jpg')",
-    marginTop: "50px",
+    marginTop: "90px",
     width:'100%',
     height: "28rem",
     backgroundSize: "cover",
